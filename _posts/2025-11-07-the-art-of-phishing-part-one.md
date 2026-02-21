@@ -10,7 +10,7 @@ image:
   alt: Phishing Infrastructure Overview
 ---
 
-> *Hi — I'm m4lb3nder, a Security Researcher.*
+> *Hi — I'm M4lB3nder, a Security Researcher.*
 > This post dives into phishing: what it is, how to build a phishing campaign, how to choose domains (including IPs, ASNs, and subdomains), how to secure your server, and how to build the supporting infrastructure.
 
 ## What is Phishing?
@@ -524,4 +524,5 @@ ssh root@123.45.67.89   # Server
 ---
 
 *Thanks for the read — keep hacking stay tuned for part 2!*
+
 

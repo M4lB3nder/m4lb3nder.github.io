@@ -10,7 +10,7 @@ image:
   alt: Persistence - The Art of Staying In
 ---
 
-> *Hi I'm m4lb3nder, a Security Researcher.*
+> *Hi I'm M4lB3nder, a Security Researcher.*
 > You got in. Initial access is done. The beacon is live. Now comes the hardest part  **staying in**. This is the definitive guide to persistence across every platform. 12 phases covering Windows Registry, Scheduled Tasks, WMI Event Subscriptions, Services, DLL/COM Hijacking, UEFI Bootkits, Active Directory persistence (Golden Ticket, Silver Ticket, AdminSDHolder, DCSync, SID History), Linux, macOS, and Cloud (Azure AD, AWS IAM, GCP). Every technique mapped to MITRE ATT&CK TA0003. Real APT case studies. Full OPSEC tradecraft. No fluff.
 
 ## Why Persistence Matters
@@ -2394,6 +2394,7 @@ APT41 was unique in combining financially-motivated attacks with state espionage
 35. **Security Blue Team / Medium**  [IFEO for Stealthy Persistence](https://securityblueteam.medium.com/utilizing-image-file-execution-options-ifeo-for-stealthy-persistence-331bc972554e)  IFEO GlobalFlag + VerifierDlls technique with Autoruns bypass analysis.
 
 ---
-*Follow me on GitHub: [@m4lb3nder](https://github.com/m4lb3nder)*
+*Follow me on GitHub: [@M4lB3nder](https://github.com/M4lB3nder)*
+
 
 

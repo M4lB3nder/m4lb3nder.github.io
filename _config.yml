@@ -14,28 +14,30 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: m4lb3nder # the main title
+title: M4lB3nder # the main title
 
-tagline: Offensive Security Notes # it will display as the subtitle
+tagline: Malware Analysis || Reversing Engineering # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Personal security research blog by m4lb3nder. Write-ups on red team tradecraft, Windows internals, exploitation, and OPSEC.
+  M4lB3nder - Malware Analysis and Reversing Engineering.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://m4lb3nder.github.io"
 
 github:
-  username: m4lb3nder
+  username: M4lB3nder
 
 twitter:
   username:
 
 social:
-  name: m4lb3nder
+  name: M4lB3nder
   email: # change to your email address
   links:
-    - https://github.com/m4lb3nder
+    - https://github.com/M4lB3nder
+    - https://www.linkedin.com/in/m4lb3nder
+    - https://medium.com/@m4lb3nder
 
 # Site Verification Settings
 webmaster_verifications:

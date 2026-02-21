@@ -10,7 +10,7 @@ image:
   alt: Beacon C2 Network Topology
 ---
 
-> *Hi — I'm m4lb3nder, a Security Researcher. This post dives into Beacons: what they are, how they run in memory, the evolution of loaders (including prepended/Kayn styles), and the security implications defenders need to know — let's jump in.*
+> *Hi — I'm M4lB3nder, a Security Researcher. This post dives into Beacons: what they are, how they run in memory, the evolution of loaders (including prepended/Kayn styles), and the security implications defenders need to know — let's jump in.*
 
 ## What is Beacon?
 
@@ -277,4 +277,5 @@ Size comparison: Beacon stager ~890 bytes; full stageless stage ~307,200 bytes (
 ---
 
 *Thanks for the read — keep hacking!*
+
 

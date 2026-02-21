@@ -10,7 +10,7 @@ image:
   alt: Website Cloning Detection Methods
 ---
 
-> *Hi — I'm m4lb3nder, a Security Researcher.*
+> *Hi — I'm M4lB3nder, a Security Researcher.*
 > This post covers phishing: What is Cloning, 4 Cloning Methods, 6 Detection Mechanisms, and Evasion Techniques.
 
 ## First: What is Cloning?
@@ -188,4 +188,5 @@ Many companies use Push Security to protect employees from phishing by detecting
 ---
 
 *Thanks for the read — keep hacking stay tuned for part 3!*
+
 
