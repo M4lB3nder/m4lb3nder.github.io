@@ -1,5 +1,5 @@
 ---
-title: "Threats Intelligence: The Gentlemen Ransomware"
+title: "Threats Intelligence 01: The Gentlemen Ransomware"
 date: 2026-02-20 18:00:00 +0200
 categories:
   - Threats Intelligences
@@ -8,15 +8,19 @@ tags:
   - ransomware
   - mitre-attack
   - malware-analysis
-summary: "Technical threat intelligence report mapping hapvida.exe activity to MITRE ATT&CK tactics."
-description: "Detailed breakdown of The Gentlemen ransomware operational commands and references extracted from hapvida.exe."
+summary: "The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in July–August 2025, quickly establishing itself as a major global cyber threat. The group operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates a customizable, cross-platform toolkit targeting different environments."
+description: "Detailed breakdown of The Gentlemen ransomware operational commands and references extracted from ."
 image:
   path: /assets/img/the-gentlemen-ransomware/gentlemen-cover.webp
   alt: The Gentlemen Ransomware
 ---
 # hapvida.exe — Extracted Commands & References by MITRE ATT&CK Tactic
 
-**File:** `hapvida.exe` | **Language:** Go | **Tool:** FLOSS v3.1.1  
+## Introduction
+
+The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in July-August 2025, quickly establishing itself as a major global cyber threat. The group operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates a customizable, cross-platform toolkit targeting different environments.
+
+**Language:** Go | **Tool:** FLOSS v3.1.1  
 **Threat Group:** The Gentlemen Ransomware
 
 ---
@@ -391,4 +395,3 @@ AES-CBC / AES-NI — Hardware-accelerated AES
 | **Group Policy Manipulation** | GPO modification | Network Discovery enable; Remote Defender disable domain-wide |
 | **Collection & Exfiltration** | Data staged; SFTP exfil | `Win32_Volume` enum; WinSCP SFTP; double-extortion .onion site |
 | **Impact** | Data encryption; Service stop | AES/ChaCha20; `.7mtzhh` ext; `--full/--system/--shares`; service kill list; `README-GENTLEMEN.txt` |
-
