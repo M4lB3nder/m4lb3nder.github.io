@@ -9,23 +9,27 @@ tags:
   - mitre-attack
   - malware-analysis
 summary: "The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in July–August 2025, quickly establishing itself as a major global cyber threat. The group operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates a customizable, cross-platform toolkit targeting different environments."
-description: "Detailed breakdown of The Gentlemen ransomware operational commands and references extracted from ."
+description: "Detailed breakdown of The Gentlemen ransomware operational commands and references extracted from hapvida.exe."
 image:
   path: /assets/img/the-gentlemen-ransomware/gentlemen-cover.webp
   alt: The Gentlemen Ransomware
 ---
-# hapvida.exe — Extracted Commands & References by MITRE ATT&CK Tactic
+# The Gentlemen Ransomware
 
 ## Introduction
 
 The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in July-August 2025, quickly establishing itself as a major global cyber threat. The group operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates a customizable, cross-platform toolkit targeting different environments.
+
+## Key Tactics and Techniques
+
+The ransomware attack chain. Source - Trend Micro
 
 **Language:** Go | **Tool:** FLOSS v3.1.1  
 **Threat Group:** The Gentlemen Ransomware
 
 ---
 
-## 1. Initial Access
+## Initial Access
 
 ### Techniques Observed
 - Exploitation of internet-facing services
@@ -42,7 +46,7 @@ The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group
 
 ---
 
-## 2. Reconnaissance & Discovery
+## Reconnaissance & Discovery
 
 ### Techniques Observed
 - Network scanning with **Advanced IP Scanner** and **Nmap**
@@ -84,7 +88,7 @@ HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters
 
 ---
 
-## 3. Privilege Escalation
+## Privilege Escalation
 
 ### Techniques Observed
 - Execution of components with elevated privileges to gain full environment control
@@ -104,7 +108,7 @@ $p.Create("%s")
 
 ---
 
-## 4. Defense Evasion
+## Defense Evasion
 
 ### Techniques Observed
 - Deployment of kernel-level anti-AV utilities
@@ -175,7 +179,7 @@ netsh advfirewall   (implied)
 
 ---
 
-## 5. Lateral Movement & Remote Execution
+## Lateral Movement & Remote Execution
 
 ### Techniques Observed
 - Use of legitimate admin tools (**PsExec**, **PowerRun**, **PuTTY**) to transfer and execute payloads across systems
@@ -205,7 +209,7 @@ sc   (service control reference)
 
 ---
 
-## 6. Persistence & Propagation
+## Persistence & Propagation
 
 ### Techniques Observed
 - **GPO manipulation** for domain-wide payload distribution
@@ -241,7 +245,7 @@ reg add / reg set   (present in internal string blob)
 
 ---
 
-## 7. Group Policy Manipulation
+## Group Policy Manipulation
 
 ### Enable Network Discovery via GPO Firewall Rule (extracted from binary)
 ```powershell
@@ -266,7 +270,7 @@ HKLM\SYSTEM\CurrentControlSet\Control\Lsa
 
 ---
 
-## 8. Data Collection & Exfiltration
+## Data Collection & Exfiltration
 
 ### Techniques Observed
 - Staging of sensitive data prior to exfiltration
@@ -299,7 +303,7 @@ http://tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion/
 
 ---
 
-## 9. Ransomware Deployment & Impact
+## Ransomware Deployment & Impact
 
 ### Techniques Observed
 - Ransomware deployment via **NETLOGON** using domain admin credentials
@@ -379,6 +383,21 @@ chacha20         — ChaCha20 stream cipher
 X25519           — Key exchange
 AES-CBC / AES-NI — Hardware-accelerated AES
 ```
+
+---
+
+## Victimology
+
+- Target industries: Manufacturing, construction, healthcare, insurance, others
+- Target regions: Asia-Pacific, South America, North America, Middle East, others
+
+Victim distribution by industry, region, and country. Source - Trend Micro
+
+## Technical Analysis
+
+### Execution Arguments
+
+When launched, the ransomware executable provides an extensive help message, showing various options and flags available.
 
 ---
 
