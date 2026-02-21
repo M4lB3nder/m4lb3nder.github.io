@@ -23,6 +23,8 @@ The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group
 
 The Ransomware attack chain. Source - Trend Micro
 
+![The Ransomware Attack Chain](/assets/img/the-gentlemen-ransomware/ransomware-attack-chain.webp)
+
 ## Initial Access
 
 - Exploitation of internet-facing services
@@ -191,6 +193,8 @@ $volumes += Get-ClusterSharedVolume | ForEach-Object { $_.SharedVolumeInfo.Frien
 - Target regions: Asia-Pacific, South America, North America, Middle East, others
 
 Victim distribution by industry, region, and country. Source - Trend Micro
+
+![Victim Distribution by Industry, Region, and Country](/assets/img/the-gentlemen-ransomware/victim-distribution.webp)
 
 ## Technical Analysis
 
