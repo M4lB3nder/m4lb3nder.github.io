@@ -6,18 +6,17 @@ order: 4
 
 ## About
 
-I am **M4lB3nder**.
-My focus is **Malware Analysis** and **Reversing Engineering**.
+I am Youssef Madkour (M4lB3nder). Cybersecurity engineer specializing in Malware Analysis, Reverse Engineering, and Kernel Programming.
+Experienced in developing C/C++ & Python detection tools. Strong knowledge of Windows Internals, with a growing focus on Windows kernel development & Threats Intelligence.
 
 ## Focus Areas
 
-- Red Team operations
-- Windows internals
-- Exploit development
-- Detection evasion and OPSEC
+- Malware Analysis
+- Reversing Engineering
+- Windows Internals
+- Threats Intelligence
 
 ## Contact
 
-- GitHub: [M4lB3nder](https://github.com/M4lB3nder)
 - LinkedIn: [m4lb3nder](https://www.linkedin.com/in/m4lb3nder)
-- Medium: [@m4lb3nder](https://medium.com/@m4lb3nder)
+- X (Twitter): [@M4lB3nder](https://x.com/M4lB3nder)
