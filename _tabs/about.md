@@ -4,32 +4,17 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## Don't worry... I can also debug u
+## About
 
-I'm a **Red Teamer** and **Low-Level Developer**.
+I am **m4lb3nder**. I use this site to share security research notes, red team tradecraft, and technical write-ups.
 
-My Red Team Notes: [Notion - Red Team Notes](https://www.notion.so/Red-Team-Notes-26dabf92dc0f800ebb7ee35a93d2ea58)
+## Focus Areas
 
-## Certifications
-
-- **CETP** (Certified Evasion Techniques Professional)
-- **CRTL** (Certified Red Team Lead)
-- **Malware Development** (MalDev)
-- **CRTO** (Certified Red Team Operator)
-- **CPTS** (Certified Penetration Testing Specialist)
-- **CRTE** (Certified Red Team Expert)
-- **CWES** (Certified Web Exploitation Specialist)
-- **eWPTX** (Web Application Penetration Tester eXtreme)
-- **eMAPT** (Mobile Application Penetration Tester)
-
-## The Goal is Pwn2Own
-
-![Pwn2Own](/assets/img/pwn2own.avif)
+- Red Team operations
+- Windows internals
+- Exploit development
+- Detection evasion and OPSEC
 
 ## Contact
 
-- X: [@0XDbgMan](https://x.com/0XDbgMan)
-- LinkedIn: [aboud-y](https://www.linkedin.com/in/aboud-y)
-- GitHub: [0xDbgMan](https://github.com/0xDbgMan)
-- Discord: **0xDbgman**
-- Telegram: **dbgman**
+- GitHub: [m4lb3nder](https://github.com/m4lb3nder)

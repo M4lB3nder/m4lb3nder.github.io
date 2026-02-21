@@ -10,7 +10,7 @@ image:
   alt: Red Team Infrastructure Architecture
 ---
 
-> *Hi I'm DebuggerMan, a Red Teamer.*
+> *Hi I'm m4lb3nder, a Security Researcher.*
 > This is the definitive guide to Red Team Infrastructure. Every component, every tool, every config. From buying domains to getting beacons through the most hardened environments. 12 phases covering C2, redirectors, CDN relays, phishing, mail servers, Cloudflare tunnels, Malleable profiles, and full OPSEC hardening. No fluff just architecture and tradecraft.
 
 ## Why Infrastructure Matters
@@ -1246,5 +1246,5 @@ This is what **resilient red team infrastructure** looks like.
 10. **Ghostwriter** - [Infrastructure Management](https://www.ghostwriter.wiki/) - Red team engagement and infrastructure management platform.
 
 ---
-- X: [@0XDbgMan](https://x.com/0XDbgMan)
-- Telegram: **dbgman**
+- GitHub: [@m4lb3nder](https://github.com/m4lb3nder)
+

@@ -10,7 +10,7 @@ image:
   alt: Red Team Initial Access Kill Chain
 ---
 
-> *Hi I'm DebuggerMan, a Red Teamer.*
+> *Hi I'm m4lb3nder, a Security Researcher.*
 > This is the definitive guide to Initial Access  the hardest phase of any red team engagement. Payload development, phishing, MFA bypass, credential attacks, exploitation, vishing, physical access, and supply chain  backed by real-world APT case studies from APT29, Scattered Spider, Lazarus Group, and more. 9 phases covering every technique an operator needs to get that first foothold. Mapped to MITRE ATT&CK TA0001. No fluff  just tradecraft.
 
 ## Why Initial Access is Everything
@@ -1068,4 +1068,5 @@ _Follow the decision tree based on target environment characteristics to choose 
 
 ---
 
-*Follow me on X: [@0XDbgMan](https://x.com/0XDbgMan)*
+*Follow me on GitHub: [@m4lb3nder](https://github.com/m4lb3nder)*
+
