@@ -229,7 +229,7 @@ $volumes += Get-ClusterSharedVolume | ForEach-Object { $_.SharedVolumeInfo.Frien
 
 `Asia-Pacific` · `South America` · `North America` · `Middle East` · `Others`
 
-![Victim Distribution by Industry, Region, and Country](/assets/img/the-gentlemen-ransomware/victim-distribution.webp)
+![Trend Micro — Victim distribution by industry, region, and country](/assets/img/the-gentlemen-ransomware/victim-distribution.webp)
 
 *Source: Trend Micro — Victim distribution by industry, region, and country*
 
