@@ -9,7 +9,7 @@ tags:
   - mitre-attack
   - malware-analysis
 summary: "The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in July-August 2025, quickly establishing itself as a major global cyber threat. The group operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates a customizable, cross-platform toolkit targeting different environments."
-description: "Detailed breakdown of The Gentlemen ransomware operational commands and references extracted from hapvida.exe."
+description: "The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in July–August 2025, quickly establishing itself as a major global cyber threat. The group operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates a customizable, cross-platform toolkit targeting different environments."
 image:
   path: /assets/img/the-gentlemen-ransomware/gentlemen-cover.webp
   alt: The Gentlemen Ransomware
@@ -18,6 +18,8 @@ image:
 # The Gentlemen Ransomware
 
 The Gentlemen Ransomware is a highly sophisticated, fast-moving ransomware group that emerged in **July–August 2025**, quickly establishing itself as a major global cyber threat. The group operates under a **Ransomware-as-a-Service (RaaS)** model, offering affiliates a customizable, cross-platform toolkit targeting different environments.
+
+The Gentlemen ransomware, first observed in July/August 2025, is a highly sophisticated and rapidly emerging threat targeting medium-to-large organizations across **17+ countries**. It employs **double-extortion** tactics, specifically targeting manufacturing, construction, healthcare, and insurance sectors. The group is known for adaptive, custom-built evasion tools that disable security products and encrypt data using **ChaCha20** and **RSA-4096** algorithms.
 
 ---
 
