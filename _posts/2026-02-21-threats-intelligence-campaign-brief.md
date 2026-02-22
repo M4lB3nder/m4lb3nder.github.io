@@ -22,13 +22,13 @@ The Gentlemen Ransomware is a fast-moving, high-impact threat actor that emerged
 Since first observation, The Gentlemen has targeted medium-to-large organizations across **17+ countries**, with notable pressure on manufacturing, construction, healthcare, and insurance sectors. Its operations rely on **double extortion**, aggressive defense evasion, and modern cryptography (**ChaCha20** + **RSA-4096**) to maximize disruption and negotiation leverage.
 
 ![Twitter account](/assets/img/the-gentlemen-ransomware/gentlemen-account.webp)
-
+_Twitter account_
 ---
 
 ## Key Tactics and Techniques
 
 ![The Ransomware Attack Chain](/assets/img/the-gentlemen-ransomware/ransomware-attack-chain.webp)
-_Source: Trend Micro - The Ransomware Attack Chain_
+_Trend Micro - The Ransomware Attack Chain_
 
 ---
 
@@ -48,6 +48,7 @@ _Source: Trend Micro - The Ransomware Attack Chain_
 | **Tor Browser** | `https://www.torproject.org/download/` |
 
 ![The leak website](/assets/img/the-gentlemen-ransomware/ransomware-leak-website.webp)
+_The Ransomware Leak Website_
 
 ---
 
@@ -209,6 +210,7 @@ $volumes += Get-ClusterSharedVolume | ForEach-Object { $_.SharedVolumeInfo.Frien
 - Deletion of shadow copies, logs, artifacts, and security event data
 
 ![The ransomware note](/assets/img/the-gentlemen-ransomware/ransomware-note.webp)
+_The Ransomware Note_
 
 ---
 
@@ -223,7 +225,7 @@ $volumes += Get-ClusterSharedVolume | ForEach-Object { $_.SharedVolumeInfo.Frien
 `Asia-Pacific` · `South America` · `North America` · `Middle East` · `Others`
 
 ![Victim Distribution](/assets/img/the-gentlemen-ransomware/victim-distribution.webp)
-_Source: Trend Micro - Victim distribution by industry, region, and country_
+_Trend Micro - Victim distribution by industry, region, and country_
 
 ---
 
