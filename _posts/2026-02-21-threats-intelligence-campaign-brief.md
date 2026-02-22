@@ -21,18 +21,14 @@ The Gentlemen Ransomware is a fast-moving, high-impact threat actor that emerged
 
 Since first observation, The Gentlemen has targeted medium-to-large organizations across **17+ countries**, with notable pressure on manufacturing, construction, healthcare, and insurance sectors. Its operations rely on **double extortion**, aggressive defense evasion, and modern cryptography (**ChaCha20** + **RSA-4096**) to maximize disruption and negotiation leverage.
 
-image:
-  path: /assets/img/the-gentlemen-ransomware/gentlemen-account.webp
-  alt: Twitter account
+![Twitter account](/assets/img/the-gentlemen-ransomware/gentlemen-account.webp)
 
 ---
 
 ## Key Tactics and Techniques
 
-image:
-  path: /assets/img/the-gentlemen-ransomware/ransomware-attack-chain.webp
-  alt: The Ransomware Attack Chain
-  caption: Source: Trend Micro - The Ransomware Attack Chain
+![The Ransomware Attack Chain](/assets/img/the-gentlemen-ransomware/ransomware-attack-chain.webp)
+_Source: Trend Micro - The Ransomware Attack Chain_
 
 ---
 
@@ -51,9 +47,7 @@ image:
 | **Leak Site (Tor)** | `http://.onion/` |
 | **Tor Browser** | `https://www.torproject.org/download/` |
 
-image:
-  path: /assets/img/the-gentlemen-ransomware/ransomware-leak-website.webp
-  alt: The leak website
+![The leak website](/assets/img/the-gentlemen-ransomware/ransomware-leak-website.webp)
 
 ---
 
@@ -214,9 +208,7 @@ $volumes += Get-ClusterSharedVolume | ForEach-Object { $_.SharedVolumeInfo.Frien
 - Termination of backup, database, and security services: **Veeam**, **SQL**, **Oracle**, **SAP**, **Acronis**
 - Deletion of shadow copies, logs, artifacts, and security event data
 
-image:
-  path: /assets/img/the-gentlemen-ransomware/ransomware-note.webp
-  alt: The ransomware note
+![The ransomware note](/assets/img/the-gentlemen-ransomware/ransomware-note.webp)
 
 ---
 
@@ -230,10 +222,8 @@ image:
 
 `Asia-Pacific` · `South America` · `North America` · `Middle East` · `Others`
 
-image:
-  path: /assets/img/the-gentlemen-ransomware/victim-distribution.webp
-  alt: Trend Micro - Victim distribution by industry, region, and country
-  caption: Source: Trend Micro - Victim distribution by industry, region, and country
+![Victim Distribution](/assets/img/the-gentlemen-ransomware/victim-distribution.webp)
+_Source: Trend Micro - Victim distribution by industry, region, and country_
 
 ---
 
