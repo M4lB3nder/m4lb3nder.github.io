@@ -102,7 +102,7 @@ try {
 $volumes
 ```
 
-### System Banner (Observed in Samples)
+### System Banner (Observed in Sample)
 
 ```powershell
 Write-Host "Windows version <version>" -BackgroundColor Blue -ForegroundColor White
@@ -298,9 +298,8 @@ Commonly terminated services include:
 #### File Extension Exclusion List
 
 Skipped during encryption:
-> .exe .bat .drv .tmp .msp .prf .ms .ci .co .key .ocx .pdb .wp .xhl .pro .mod
-> .dll .ps1 .ic .sh .tab .in .cmd .ani .386 .cur .idx .sys .com .sh .sm .pas
-> .pl .cp .lad .vic .ms .su .sql .SAP .cvd .vss .Sql .Dir
+`.exe`, `.bat`, `.drv`, `.tmp`, `.msp`, `.prf`, `.ms`, `.ci`, `.co`, `.key`, `.ocx`, `.pdb`, `.wp`, `.xhl`, `.pro`, `.mod`, `.dll`, `.ps1`, `.ic`, `.sh`, `.tab`, `.in`, `.cmd`, `.ani`, `.386`, `.cur`, `.idx`, `.sys`, `.com`, `.sh`, `.sm`, `.pas`, `.pl`, `.cp`, `.lad`, `.vic`, `.ms`, `.su`, `.sql`, `.SAP`, `.cvd`, `.vss`, `.Sql`, `.Dir`.
+
 
 #### Crypto Engine
 - The ransomware contains an embedded attacker public key (decoded in memory).
