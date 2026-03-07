@@ -352,17 +352,3 @@ Skipped during encryption:
 | Impact               | T1552        | Unsecured Credentials                                 |
 
 ---
-
-## Recommended Mitigations
-
-- **Patch internet-facing services** — prioritize FortiGate and VPN appliances; apply vendor patches immediately
-- **Enforce MFA** on all administrative and domain accounts
-- **Monitor and restrict PowerShell** execution policies; enable script block logging
-- **Harden NETLOGON share** access and audit GPO modifications
-- **Deploy EDR** solutions with tamper protection enabled to resist kernel-level disabling
-- **Backup isolation** — ensure backups are offline or air-gapped and protected from domain admin credentials
-- **Shadow copy protection** — use Volume Shadow Copy Service (VSS) protections to prevent deletion
-- **Network segmentation** — limit lateral movement paths between workstations and servers
-- **Hunt for indicators** — scan for `.7mzhh` extensions, `README-GENTLEMEN.txt`, and the TOX ID listed above
-
----
