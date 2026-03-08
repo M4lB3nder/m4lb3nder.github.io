@@ -12,7 +12,7 @@ tags:
 summary: "The Gentlemen Ransomware is a fast-moving ransomware group that emerged in July-August 2025 and quickly established itself as a global threat. The group operates under a Ransomware-as-a-Service (RaaS) model and provides affiliates with a customizable, cross-platform toolkit."
 description: "Technical threat intelligence report on The Gentlemen Ransomware, a fast-moving RaaS operation using double extortion, broad targeting, and adaptive evasion tradecraft."
 image:
-  path: /assets/img/the-gentlemen-ransomware/gentlemen-cover.webp
+  path: /assets/img/threat-intelligence/the-gentlemen-ransomware/gentlemen-cover.webp
   alt: The Gentlemen Ransomware
 ---
 
@@ -22,7 +22,7 @@ image:
 
 Since initial observation, The Gentlemen has targeted medium-to-large organizations across **17+ countries**, exerting particular pressure on the manufacturing, construction, healthcare, and insurance sectors. Operations rely on **double extortion tactics**, aggressive defense evasion, and modern cryptography (**ChaCha20 + RSA-4096**) to maximize disruption and negotiation leverage.
 
-![Twitter account](/assets/img/the-gentlemen-ransomware/gentlemen-account.webp)
+![Twitter account](/assets/img/threat-intelligence/the-gentlemen-ransomware/gentlemen-account.webp)
 _Twitter account_
 
 ---
@@ -47,7 +47,7 @@ _Twitter account_
 
 The Gentlemen follows a structured intrusion lifecycle — from initial access through to data exfiltration and ransomware deployment. The phases below map the full attack chain as observed across confirmed incidents.
 
-![The Ransomware Attack Chain](/assets/img/the-gentlemen-ransomware/ransomware-attack-chain.webp)
+![The Ransomware Attack Chain](/assets/img/threat-intelligence/the-gentlemen-ransomware/ransomware-attack-chain.webp)
 _Trend Micro - The Ransomware Attack Chain_
 
 ---
@@ -71,7 +71,7 @@ The group gains entry through two primary vectors:
 | **Leak Site (Tor)** | `http://.onion/` |
 | **Tor Browser** | `https://www.torproject.org/download/` |
 
-![The leak website](/assets/img/the-gentlemen-ransomware/ransomware-leak-website.webp)
+![The leak website](/assets/img/threat-intelligence/the-gentlemen-ransomware/ransomware-leak-website.webp)
 _The Ransomware Leak Website_
 
 ---
@@ -246,7 +246,7 @@ $volumes += Get-ClusterSharedVolume |
 - Backup, database, and security services terminated: **Veeam**, **SQL**, **Oracle**, **SAP**, **Acronis**
 - Deletion of shadow copies, event logs, prefetch, and other forensic artifacts
 
-![The ransomware note](/assets/img/the-gentlemen-ransomware/ransomware-note.webp)
+![The ransomware note](/assets/img/threat-intelligence/the-gentlemen-ransomware/ransomware-note.webp)
 _The Ransomware Note_
 
 ---
@@ -263,7 +263,7 @@ _The Ransomware Note_
 
 > Victims span 17+ countries with no single geographic concentration, indicating opportunistic targeting with broad sector reach.
 
-![Victim Distribution](/assets/img/the-gentlemen-ransomware/victim-distribution.webp)
+![Victim Distribution](/assets/img/threat-intelligence/the-gentlemen-ransomware/victim-distribution.webp)
 _Trend Micro - Victim distribution by industry, region, and country_
 
 ---
@@ -285,7 +285,7 @@ Ransomware performs a command-line argument parsing. These arguments are used to
 | `--superfast`     | Encrypt 3%                                               |
 | `--ultrafast`     | Encrypt 1%                                               |
 
-![Execution Arguments](/assets/img/the-gentlemen-ransomware/execution-argument.webp)
+![Execution Arguments](/assets/img/threat-intelligence/the-gentlemen-ransomware/execution-argument.webp)
 _Ransomware executable arguments_
 `--password` is required. If the value is missing or incorrect, the ransomware immediately terminates. This helps ensure execution only in attacker-intended environments and reduces detonation in sandbox analysis environments.
 ---
