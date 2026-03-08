@@ -6,15 +6,15 @@ order: 4
 
 ## About
 
-I'm M4lB3nder. Cybersecurity analyst specializing in Malware Analysis, Reverse Engineering, and Kernel Programming.
-Experienced in developing C/C++ & Python detection tools, with a growing focus on Kernel Programming and Threat Intelligence.
-
 ![About](/assets/img/1745641.webp)
+
+I'm M4lB3nder. Cybersecurity Analyst specializing in Malware Analysis, Reverse Engineering, and Kernel Programming.
+Experienced in developing C/C++ & Python detection tools, with a growing focus on Kernel Programming and Threat Intelligence.
 
 ## Focus Areas
 
 - [Malware Analysis]({{ '/categories/malware-analysis/' | relative_url }})
-- [Reversing Engineering]({{ '/categories/ctfs-reversing/' | relative_url }})
+- [Reverse Engineering]({{ '/categories/ctfs-reversing/' | relative_url }})
 - [Kernel Programming]({{ '/categories/kernel-programing/' | relative_url }})
 - [Threat Intelligence]({{ '/categories/threat-intelligence/' | relative_url }})
 
