@@ -8,5 +8,5 @@ order: 1
 
 - [Malware Analysis]({{ '/categories/malware-analysis/' | relative_url }})
 - [CTFs Reversing]({{ '/categories/ctfs-reversing/' | relative_url }})
-- [Pratical Malware Analysis Laps]({{ '/categories/pratical-malware-analysis-laps/' | relative_url }})
+- [Practical Malware Analysis Labs]({{ '/categories/practical-malware-analysis-labs/' | relative_url }})
 - [Threat Intelligence]({{ '/categories/threat-intelligence/' | relative_url }})
