@@ -8,7 +8,7 @@ permalink: /categories/ctfs-reversing/
 
 ![CTFs Reversing](/assets/img/ctf-reversing/OmKlaLaW3ld3t.webp)
 
-This list highlights my hands-on CTF reverse engineering and OSINT challenge-solving capabilities, demonstrating practical skills in binary analysis, logic reconstruction, and structured problem solving.
+This list highlights my hands-on CTF reverse engineering challenge-solving capabilities, demonstrating practical skills in binary analysis, logic reconstruction, and structured problem solving.
 
 - [Break The Syntax CTF 2025](https://medium.com/@m4lb3nder/break-the-syntax-ctf-2025-2eda8eb81458)
 - [CAT Reloaded CTF 2025](https://medium.com/@m4lb3nder/cat-reloaded-ctf-2025-reverse-osint-challenges-12d425543013)
