@@ -10,10 +10,10 @@ permalink: /categories/kernel-programming/
 +----------+     +----------+     +----------+
 |   User   | --> |  Kernel  | --> | Hardware |
 +----------+     +----------+     +----------+
-User Mode   Kernel Mode   Physical Devices
+  User Mode        Kernel Mode    Physical Devices
 ```
 
-This section contains my Windows kernel development and driver programming projects, focusing on kernel internals, Windows Driver Model (WDM), process and thread management, kernel-mode debugging, and defensive security research.
+This section contains my Windows kernel development and driver programming projects, focusing on kernel internals, Windows Driver Model (WDM), process and thread management, kernel-mode debugging.
 
 ### Projects
 
