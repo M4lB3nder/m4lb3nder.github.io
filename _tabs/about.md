@@ -15,7 +15,7 @@ Experienced in developing C/C++ & Python detection tools, with a growing focus o
 
 - [Malware Analysis]({{ '/categories/malware-analysis/' | relative_url }})
 - [Reverse Engineering]({{ '/categories/ctfs-reversing/' | relative_url }})
-- [Kernel Programming]({{ '/categories/kernel-programing/' | relative_url }})
+- [Kernel Programming]({{ '/categories/kernel-programming/' | relative_url }})
 - [Threat Intelligence]({{ '/categories/threat-intelligence/' | relative_url }})
 
 ## Contact
