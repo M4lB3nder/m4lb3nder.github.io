@@ -14,7 +14,7 @@ image:
   path: /assets/img/threat-intelligence/muddy-water-apt/cover.webp
   alt: MuddyWater Iranian APT
 ---
----
+
 ## Overview
 
 MuddyWater is an Iranian government-sponsored APT group linked to the Ministry of Intelligence and Security (MOIS). Active since at least 2017, it primarily conducts cyberespionage against government, telecommunications, defense, energy, financial, and technology organizations.
@@ -25,6 +25,7 @@ The group uses spear-phishing, malicious links and attachments, compromised acco
 _MuddyWater APT_
 
 ---
+
 ## Aliases
 
 **MuddyWater** is believed by organizations like CISA and the UK NCSC to operate under Iran’s Islamic Revolutionary Guard Corps (IRGC). This makes it different from groups linked to Iran’s Ministry of Intelligence and Security (MOIS), such as **OilRig**. **MuddyWater** is tracked under multiple aliases across vendors and intelligence organizations :
@@ -44,7 +45,9 @@ _MuddyWater APT_
 - Yellow Nix
 - G0069
 - MuddyKrill
+
 ---
+
 ## Victims
 
 MuddyWater is targeting aligns closely with Iran’s intelligence and regional geopolitical objectives, with a strong focus on espionage, intelligence collection, and maintaining access to targeted organizations
@@ -82,6 +85,7 @@ MuddyWater is targeting aligns closely with Iran’s intelligence and regional g
 - South America
 
 ---
+
 ## History of Operation
 
 MuddyWater has conducted a long running series of espionage and intelligence collection operations since its first public in 2017. The group initially relied on malicious Office documents, PowerShell payloads, and custom backdoors such as POWERSTATS.
@@ -134,9 +138,13 @@ MuddyWater has used several known vulnerabilities in enterprise systems, remote 
 - **CVE-2017-0199** — Microsoft Office/Word Remote Code Execution
 
 ---
+
 ## Tools Used 
+
 MuddyWater has been associated with the following malware, offensive-security tools, remote-management utilities, and credential-theft tools:
+
 ### Malware & Backdoors
+
 - BugSleep
 - Canopy
 - POWERSTATS
@@ -157,34 +165,45 @@ MuddyWater has been associated with the following malware, offensive-security to
 - GhostBackDoor
 - HTTP_VIP
 - Phoenix
+
 ### RATs
+
 - SyncroRAT
 - Atera
 - ScreenConnect
 - Rport
 - eHorus
 - Remote Utilities
+
 ### Credential Theft & Memory Dump
+
 - Mimikatz
 - LaZagne
 - LSASS Dumper
 - Password Dumper
 - ProcDump
 - MiniDump
+
 ### Post-Exploitation and C2 Frameworks
+
 - Meterpreter
 - Havoc
 - Cobalt Strike
 - CrackMapExec
 - PowerShell
+
 ### Tunneling, Proxy, and Network Tools
+
 - Ligolo
 - SharpChisel
 - SOCKS5 proxy servers
 - Hidec
 - Nping
+
 ---
+
 ## Attack Chain Overview
+
 MuddyWater uses a combination of **spear-phishing, malicious Microsoft Office documents, PowerShell, legitimate remote-access software, DLL side-loading, custom backdoors, and SSH tunneling** to establish and maintain access to targeted environments.
 
 ![Infection Chain](/assets/img/threat-intelligence/muddy-water-apt/infection-chain.webp)
