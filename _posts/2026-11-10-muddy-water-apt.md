@@ -26,7 +26,9 @@ _MuddyWater APT_
 
 ---
 ## Aliases
+
 **MuddyWater** is believed by organizations like CISA and the UK NCSC to operate under Iran’s Islamic Revolutionary Guard Corps (IRGC). This makes it different from groups linked to Iran’s Ministry of Intelligence and Security (MOIS), such as **OilRig**. **MuddyWater** is tracked under multiple aliases across vendors and intelligence organizations :
+
 - TA450
 - ITG17
 - Seedworm
@@ -44,8 +46,11 @@ _MuddyWater APT_
 - MuddyKrill
 ---
 ## Victims
+
 MuddyWater is targeting aligns closely with Iran’s intelligence and regional geopolitical objectives, with a strong focus on espionage, intelligence collection, and maintaining access to targeted organizations
+
 ### Target Sectors
+
 - Aerospace & Defense
 - Education
 - Government
@@ -57,12 +62,16 @@ MuddyWater is targeting aligns closely with Iran’s intelligence and regional g
 - Utilities & Waste
 - IT
 - SMBs
+
 ### Target Systems
+
 - ESXi
 - Linux
 - Windows
 - Android
+
 ### Geographic Focus
+
 - Southern Africa
 - East Asia
 - South Asia
