@@ -19,7 +19,7 @@ MuddyWater is an Iranian government-sponsored APT group linked to the Ministry o
 
 The group uses spear-phishing, malicious links and attachments, compromised accounts, and exploited vulnerabilities to gain access. It then relies on tools such as PowerShell, credential stealers, remote-management software, and custom malware to maintain access and collect sensitive information. MuddyWater is also known as Seedworm, Static Kitten, and MERCURY.
 
-![The History of Operation](assets/img/threat-intelligence/muddy-water-apt/cover2.webp)
+![The History of Operation](/assets/img/threat-intelligence/muddy-water-apt/cover2.webp)
 _MuddyWater APT_
 
 ---
@@ -174,7 +174,7 @@ MuddyWater has been associated with the following malware, offensive-security to
 ## Attack Chain Overview
 MuddyWater uses a combination of **spear-phishing, malicious Microsoft Office documents, PowerShell, legitimate remote-access software, DLL side-loading, custom backdoors, and SSH tunneling** to establish and maintain access to targeted environments.
 
-![Infection Chain](assets/img/threat-intelligence/muddy-water-apt/Infection-chain.webp)
+![Infection Chain](/assets/img/threat-intelligence/muddy-water-apt/infection-chain.webp)
 _Attack Chain Operation_
 
 ### 1. Initial Access
@@ -185,7 +185,7 @@ MuddyWater commonly gains initial access through targeted phishing emails contai
 
 MuddyWater obtained access through an RDP login, demonstrating the group's use of externally accessible remote services.
 
-![Inital Access](assets/img/threat-intelligence/muddy-water-apt/Initial-Access.webp)
+![Initial Access](/assets/img/threat-intelligence/muddy-water-apt/Initial-Access.webp)
 
 ### 2. Execution
 

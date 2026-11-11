@@ -11,3 +11,4 @@ permalink: /categories/threat-intelligence/
 This list showcases my threat intelligence expertise in profiling adversaries, mapping TTPs, validating IoCs, and translating technical findings into actionable defensive insight.
 
 - [Threat Intelligence 01: The Gentlemen Ransomware](/posts/2026-02-21-threats-intelligence-campaign-brief/)
+- [Threat Intelligence 02: MuddyWater APT Profile](/posts/muddy-water-apt/)
